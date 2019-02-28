@@ -18,6 +18,7 @@ const Menu =  () => (
       <li><Link to = "/education">Education</Link></li>
       <li><Link to = "/skills">Skills</Link></li>
       <li><Link to = "/projects">Projects</Link></li>
+      <li><Link to = "/contactme">Contact Me</Link></li>
 
       </ul>
 
