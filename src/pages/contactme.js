@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const ContactMePage = () => (
@@ -10,12 +9,12 @@ const ContactMePage = () => (
     <h1>Contact Me</h1>
 
     <form
-        name = "contact"
-        method = "post"
-        data-netlify = "true"
-        data-netlify-honeypot = "bot-field"
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
     >
-        <input name = "name" placeholder = "Your Name" type = "text"/>
+        <input name="name" placeholder="Your Name" type="text"/>
         <button>Send</button>
     </form>
 
