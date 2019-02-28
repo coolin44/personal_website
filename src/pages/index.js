@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <div>
-    <SEO title="Home" keywords={[`Colin`, `Hubert`, `Engineer`]} />
+    <SEO title="Home" keywords={[`Colin`, `Hubert`, `Engineer`, `Software`, `Austin`]} />
     <h1>About Me</h1>
     <p>Hi! My name is William Colin Hubert, but I go by my middle name <b>Colin</b>. I am a recent college 
     graduate with a Bachelor of Science in <b>Computer Science</b> from Texas State University in San Marcos, Texas.
@@ -24,23 +24,6 @@ const IndexPage = () => (
     <div style={{ maxWidth: `400px`, marginLeft: `400px`}}>
     <Image />
     </div>
-
-    <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
-
   </Layout>
 )
 
