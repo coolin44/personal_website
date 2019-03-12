@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Image from "../components/image"
+//import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -21,9 +21,9 @@ const IndexPage = () => (
     <p><b>Phone Number:</b> (512)618-2740</p>
     <p><b>GitHub:</b> https://github.com/coolin44</p>
     </div>
-    <div style={{ maxWidth: `400px`, marginLeft: `400px`}}>
+    {/* <div style={{ maxWidth: `400px`, marginLeft: `400px`}}>
     <Image />
-    </div>
+    </div> */}
   </Layout>
 )
 
